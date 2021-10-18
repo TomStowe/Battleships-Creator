@@ -5,6 +5,7 @@ This web app allows for customisable battleships boards to be created to aid lea
 
 ## ⚙️ Dependencies
 * [HTML2PDF](https://ekoopmans.github.io/html2pdf.js/)
+* [Battleship Favicon](https://freesvg.org/battleship-icon)
 
 ## 🎓 Licence
 This software is released under the [GNU AGPLv3](LICENSE) licence
