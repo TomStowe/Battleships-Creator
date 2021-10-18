@@ -20,12 +20,13 @@ const getTable = () => {
     hit.style = "margin-left: 10%; margin-right: 10%;";
     hit.innerHTML = document.getElementById("battleshipsHit").value;
     let title = hit.cloneNode(true);
-    title.style = "margin-left: 10%; margin-right: 10%; font-weight: bold;";
+    title.style = "font-weight: bold;";
     title.innerHTML = document.getElementById("battleshipsTitle").value;
     let miss = hit.cloneNode(true);
     miss.innerHTML = document.getElementById("battleshipsMiss").value;
-    p.appendChild(hit);
     p.appendChild(title);
+    p.appendChild(document.createElement("br"));
+    p.appendChild(hit);
     p.appendChild(miss);
 
     // Create a container for the table
