@@ -1,0 +1,68 @@
+body {
+  background-color: #eeeeee;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  background-color: #f8f8f8;
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+td {
+  cursor: not-allowed;
+}
+th {
+  box-sizing: border-box;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.tableHeader {
+  padding: 0;
+  margin: 0;
+}
+
+.tableCell {
+  border: 1px solid black;
+  display: table-cell;
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.pdfContainer {
+  width: 100%;
+}
+
+.pdfTableContainer {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.subHeader {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+}
