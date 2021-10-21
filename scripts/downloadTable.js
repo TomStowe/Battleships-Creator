@@ -51,5 +51,5 @@ document.getElementById("downloadBoard").addEventListener("click", () => {
     }
 
     // Save the pdf
-    html2pdf().set({pagebreak: {mode: "avoid-all"}, margin: 10}).from(container).save("battleships.pdf");
+    html2pdf().set({html2canvas: {scale: 5}, pagebreak: {mode: "avoid-all"}, margin: 10}).from(container).save("battleships.pdf");
 })
